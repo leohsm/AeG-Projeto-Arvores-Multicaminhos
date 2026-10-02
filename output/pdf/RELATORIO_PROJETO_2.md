@@ -6,6 +6,8 @@
 
 **Prazo do enunciado:** 04/10/2026
 
+**Repositório do projeto:** [https://github.com/leohsm/AeG-Projeto-Arvores-Multicaminhos](https://github.com/leohsm/AeG-Projeto-Arvores-Multicaminhos)
+
 ## 1. Objetivos e metodologia
 
 O projeto avalia os itens 4, 5 e 6 do enunciado: eliminar a reconstrução do índice em cada exclusão, medir o efeito de ORDEM_INDICE e explicar por que percorrer as folhas da B+ não torna a listagem completa automaticamente mais rápida. A implementação parte do FrameworkPersistencia_com_indice.zip fornecido pela disciplina; o repositório do Projeto 1 foi usado para os dados da equipe e a organização do documento.

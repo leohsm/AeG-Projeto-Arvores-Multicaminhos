@@ -81,6 +81,7 @@ def main():
     styles.add(ParagraphStyle(name='BodyPt',fontName='Helvetica',fontSize=10,leading=14.5,alignment=TA_JUSTIFY,spaceAfter=9,textColor=colors.HexColor(NAVY)))
     styles.add(ParagraphStyle(name='TitlePt',fontName='Helvetica-Bold',fontSize=22,leading=29,alignment=TA_CENTER,textColor=colors.HexColor(NAVY),spaceAfter=15))
     styles.add(ParagraphStyle(name='CenterPt',fontName='Helvetica',fontSize=11,leading=18,alignment=TA_CENTER,spaceAfter=5,textColor=colors.HexColor(NAVY)))
+    styles.add(ParagraphStyle(name='RepoPt',fontName='Helvetica',fontSize=9.5,leading=14,alignment=TA_CENTER,spaceAfter=5,textColor=colors.HexColor(BLUE)))
     styles.add(ParagraphStyle(name='H1Pt',fontName='Helvetica-Bold',fontSize=15,leading=19,textColor=colors.HexColor(NAVY),spaceAfter=14))
     styles.add(ParagraphStyle(name='H2Pt',fontName='Helvetica-Bold',fontSize=11,leading=15,textColor=colors.HexColor(NAVY),spaceBefore=9,spaceAfter=8))
     styles.add(ParagraphStyle(name='SmallPt',fontName='Helvetica',fontSize=8,leading=11,textColor=colors.HexColor(NAVY),spaceAfter=7))
@@ -114,7 +115,12 @@ def main():
     story.append(Spacer(1,32))
     for text in ['Período letivo: 2026.2','Prazo do enunciado: 04 de outubro de 2026','Medianeira - PR','Medições realizadas em '+meta['inicio'][:10]]:
         story.append(Paragraph(text,styles['CenterPt']))
+    repo_url='https://github.com/leohsm/AeG-Projeto-Arvores-Multicaminhos'
+    story.append(Spacer(1,22))
+    story.append(Paragraph('Repositório do projeto',styles['CenterPt']))
+    story.append(Paragraph(f'<link href="{repo_url}" color="{BLUE}">{repo_url}</link>',styles['RepoPt']))
     md.extend(['# Projeto Prático 2 - Árvores Multicaminhos','**UTFPR - Câmpus Medianeira | Ciência da Computação | Árvores e Grafos | 2026.2**','**Equipe:** Erik Mazzuco, Letícia Moro, Leonardo Herrero','**Prazo do enunciado:** 04/10/2026'])
+    md.append(f'**Repositório do projeto:** [{repo_url}]({repo_url})')
     page();h('1. Objetivos e metodologia')
     p('O projeto avalia os itens 4, 5 e 6 do enunciado: eliminar a reconstrução do índice em cada exclusão, medir o efeito de ORDEM_INDICE e explicar por que percorrer as folhas da B+ não torna a listagem completa automaticamente mais rápida. A implementação parte do FrameworkPersistencia_com_indice.zip fornecido pela disciplina; o repositório do Projeto 1 foi usado para os dados da equipe e a organização do documento.')
     p(f'<b>Resultado principal:</b> em N = 100.000, as 30 exclusões com ordem 4 passaram de {fmt(B("baseline",4,"deletee","com_indice",100000))} ms para {fmt(B("solucao",4,"deletee","com_indice",100000))} ms, uma aceleração de {fmt(speed,1)} vezes nesta máquina. A árvore foi mantida e nenhuma exclusão criou novos nós ou executou splits.')
