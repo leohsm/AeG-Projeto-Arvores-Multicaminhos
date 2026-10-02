@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/leohsm/AeG-Projeto-Arvores-Balanceadas",
+  "commit": "bba1ef7f04c75574ad09a97a458dd82c35f515f7",
+  "files": [
+    "README.md",
+    "RELATORIO_PROJETO_1.md",
+    "generate_report_pdf.py"
+  ],
+  "use": "Dados da equipe e organiza??o do relat?rio; n?o ? o framework B+ do Moodle."
+}

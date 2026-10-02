@@ -1,0 +1,11 @@
+* text=auto
+*.c text
+*.h text
+*.py text
+*.md text
+*.csv text
+*.json text
+*.pdf binary
+*.png binary
+*.zip binary
+original/** -text

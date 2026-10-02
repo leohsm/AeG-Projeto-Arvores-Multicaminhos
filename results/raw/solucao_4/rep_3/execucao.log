@@ -1,0 +1,82 @@
+
+=== N = 1000 ===
+  createe    com_indice   N=1000      5.266 ms
+  retrieve   com_indice   N=1000      0.416 ms
+  update     com_indice   N=1000      1.030 ms
+  deletee    com_indice   N=1000      1.380 ms
+  queryAll   com_indice   N=1000      1.889 ms
+  queryBy    com_indice   N=1000      1.944 ms
+  corretude (com indice) ok: 970 registros
+  createe    sem_indice   N=1000      5.061 ms
+  retrieve   sem_indice   N=1000      4.263 ms
+  update     sem_indice   N=1000      4.437 ms
+  deletee    sem_indice   N=1000      9.805 ms
+  queryAll   sem_indice   N=1000      0.068 ms
+  queryBy    sem_indice   N=1000      0.061 ms
+  corretude (sem indice) ok: 970 registros
+
+=== N = 5000 ===
+  createe    com_indice   N=5000     28.830 ms
+  retrieve   com_indice   N=5000      0.487 ms
+  update     com_indice   N=5000      1.217 ms
+  deletee    com_indice   N=5000      1.475 ms
+  queryAll   com_indice   N=5000     13.114 ms
+  queryBy    com_indice   N=5000     16.453 ms
+  corretude (com indice) ok: 4970 registros
+  createe    sem_indice   N=5000     21.479 ms
+  retrieve   sem_indice   N=5000     29.852 ms
+  update     sem_indice   N=5000     27.577 ms
+  deletee    sem_indice   N=5000     17.719 ms
+  queryAll   sem_indice   N=5000      0.325 ms
+  queryBy    sem_indice   N=5000      0.308 ms
+  corretude (sem indice) ok: 4970 registros
+
+=== N = 20000 ===
+  createe    com_indice   N=20000   169.270 ms
+  retrieve   com_indice   N=20000     0.671 ms
+  update     com_indice   N=20000     1.525 ms
+  deletee    com_indice   N=20000     1.686 ms
+  queryAll   com_indice   N=20000    54.897 ms
+  queryBy    com_indice   N=20000    59.947 ms
+  corretude (com indice) ok: 19970 registros
+  createe    sem_indice   N=20000    80.365 ms
+  retrieve   sem_indice   N=20000    89.573 ms
+  update     sem_indice   N=20000    85.810 ms
+  deletee    sem_indice   N=20000   107.366 ms
+  queryAll   sem_indice   N=20000     1.827 ms
+  queryBy    sem_indice   N=20000     2.254 ms
+  corretude (sem indice) ok: 19970 registros
+
+=== N = 50000 ===
+  createe    com_indice   N=50000   345.169 ms
+  retrieve   com_indice   N=50000     1.135 ms
+  update     com_indice   N=50000     1.720 ms
+  deletee    com_indice   N=50000     1.903 ms
+  queryAll   com_indice   N=50000   141.299 ms
+  queryBy    com_indice   N=50000   142.220 ms
+  corretude (com indice) ok: 49970 registros
+  createe    sem_indice   N=50000   253.890 ms
+  retrieve   sem_indice   N=50000   276.478 ms
+  update     sem_indice   N=50000   255.069 ms
+  deletee    sem_indice   N=50000   191.288 ms
+  queryAll   sem_indice   N=50000     3.847 ms
+  queryBy    sem_indice   N=50000     3.573 ms
+  corretude (sem indice) ok: 49970 registros
+
+=== N = 100000 ===
+  createe    com_indice   N=100000  702.882 ms
+  retrieve   com_indice   N=100000    1.387 ms
+  update     com_indice   N=100000    2.407 ms
+  deletee    com_indice   N=100000    2.205 ms
+  queryAll   com_indice   N=100000  473.380 ms
+  queryBy    com_indice   N=100000  449.830 ms
+  corretude (com indice) ok: 99970 registros
+  createe    sem_indice   N=100000  440.643 ms
+  retrieve   sem_indice   N=100000 1010.815 ms
+  update     sem_indice   N=100000  868.818 ms
+  deletee    sem_indice   N=100000  679.214 ms
+  queryAll   sem_indice   N=100000    9.533 ms
+  queryBy    sem_indice   N=100000    8.328 ms
+  corretude (sem indice) ok: 99970 registros
+
+Resultados salvos em resultados.csv

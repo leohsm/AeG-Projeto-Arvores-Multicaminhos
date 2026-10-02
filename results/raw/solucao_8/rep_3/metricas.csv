@@ -1,0 +1,6 @@
+N,ordem,altura,nos,folhas,splits_folha,splits_interno,nos_criados,emprestimos_delete,fusoes_delete,splits_delete,nos_criados_delete
+1000,8,3,231,190,189,38,231,0,0,0,0
+5000,8,4,1196,987,986,205,1196,0,0,0,0
+20000,8,5,4750,3931,3930,814,4750,0,0,0,0
+50000,8,5,11919,9869,9868,2045,11919,0,0,0,0
+100000,8,6,23895,19748,19747,4141,23895,0,0,0,0

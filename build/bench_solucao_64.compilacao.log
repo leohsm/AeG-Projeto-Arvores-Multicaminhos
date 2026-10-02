@@ -1,0 +1,11 @@
+In file included from C:\Users\leonardo\Desktop\B+\solucao\source\Benchmark\bench.c:23:
+In file included from C:\Users\leonardo\Desktop\B+\solucao\source/Persistencia.h:5:
+In file included from C:\Users\leonardo\Desktop\B+\solucao\source/Cap3/Lista.h:1:
+C:\Users\leonardo\Desktop\B+\solucao\source/Cap3/TAD_ListaLinear.h:1:9: warning: 'LISTA_TAD_H' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
+    1 | #ifndef LISTA_TAD_H
+      |         ^~~~~~~~~~~
+C:\Users\leonardo\Desktop\B+\solucao\source/Cap3/TAD_ListaLinear.h:2:9: note: 'LISTA__TAD_H' is defined here; did you mean 'LISTA_TAD_H'?
+    2 | #define LISTA__TAD_H
+      |         ^~~~~~~~~~~~
+      |         LISTA_TAD_H
+1 warning generated.

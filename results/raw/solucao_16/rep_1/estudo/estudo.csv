@@ -1,0 +1,10 @@
+operacao,layout,modo,N,ordem,operacoes,tempo_ms,comparacoes_por_busca
+queryAll,aleatorio,indice_lista,100000,16,5,475.308540,0
+queryAll,aleatorio,sequencial_lista,100000,16,5,21.568860,0
+queryAll,aleatorio,sequencial_buffer,100000,16,5,9.129880,0
+queryAll,aleatorio,somente_folhas,100000,16,5,1.139240,0
+buscarArv,aleatorio,somente_indice,100000,16,100000,28.529100,24.757020
+queryAll,ordenado,indice_lista,100000,16,5,255.915120,0
+queryAll,ordenado,sequencial_lista,100000,16,5,22.588100,0
+queryAll,ordenado,sequencial_buffer,100000,16,5,9.320140,0
+queryAll,ordenado,somente_folhas,100000,16,5,0.658780,0

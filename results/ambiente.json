@@ -1,0 +1,19 @@
+{
+  "sistema": "Windows-11-10.0.26200-SP0",
+  "processador": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+  "cpu_logicas": 8,
+  "compilador": "C:\\Users\\leonardo\\Desktop\\B+\\tools\\zig-x86_64-windows-0.16.0\\zig.exe",
+  "versao": "0.16.0",
+  "flags": "-O2 -std=c11",
+  "repeticoes": 3,
+  "sementes": [
+    12345,
+    12346,
+    12347
+  ],
+  "registro_bytes": 40,
+  "clock": "QueryPerformanceCounter no Windows; CLOCK_MONOTONIC no POSIX",
+  "inicio": "2026-10-02T11:02:54-0300",
+  "observacao": "Dados em arquivos locais; cache do SO ativo; sem fsync. Fechamento e persistência do .idx fora do tempo de CRUD.",
+  "fim": "2026-10-02T11:09:32-0300"
+}

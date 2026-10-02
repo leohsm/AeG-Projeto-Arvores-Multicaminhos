@@ -1,0 +1,7 @@
+[
+  "OK ordem=4 checks=2513779 (CRUD, offsets, balanceamento, fusoes, reabertura)",
+  "OK ordem=8 checks=2163339 (CRUD, offsets, balanceamento, fusoes, reabertura)",
+  "OK ordem=16 checks=2043457 (CRUD, offsets, balanceamento, fusoes, reabertura)",
+  "OK ordem=32 checks=1995682 (CRUD, offsets, balanceamento, fusoes, reabertura)",
+  "OK ordem=64 checks=1974580 (CRUD, offsets, balanceamento, fusoes, reabertura)"
+]

@@ -1,0 +1,26 @@
+# Compiladores e caches locais
+tools/*
+!tools/zig-download.json
+tmp/
+publicacao/
+
+# Artefatos de compilação; preservar os logs da avaliação
+build/*
+!build/*.compilacao.log
+*.exe
+*.o
+*.obj
+
+# Arquivos de dados criados por benchmarks e testes
+*.dat
+*.idx
+
+# Python e configuração local
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.DS_Store
+Thumbs.db
